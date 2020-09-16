@@ -29,7 +29,7 @@ body{
     content:"";
     display:block;
     clear:both;
-}
+} 
 
 .services:after {
     content:"";
@@ -93,4 +93,19 @@ background:#f2f2f2;
     display:block;
     content:"";
     clear:both;
+}
+#banner{
+    max-height: 300px;
+    overflow: hidden;
+    margin:1%;
+    position: relative;
+}
+
+#banner h2{
+    position: absolute;
+    top:30px;
+    width:100%;
+    text-align: center;
+    margin:0px;
+    color:#fff;
 }
