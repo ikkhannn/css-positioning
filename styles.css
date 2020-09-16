@@ -37,6 +37,10 @@ body{
     clear:both;
 }
 
+.services{
+    max-height: 150px;
+    overflow: hidden;
+}
 
 .service h2, .service p{
     text-align: center;
@@ -55,6 +59,7 @@ body{
 .service:nth-child(1){
     top:5px;
 }
+
 
 
 .service:nth-child(2){
